@@ -1,0 +1,20 @@
+// codigo para hacer andar dos motores
+
+int ledPin12 = 12;
+
+
+void setup() {
+
+pinMode(ledPin12, OUTPUT);
+
+}
+
+
+void loop() {
+//avanza. los el motor
+if (ledPin12 ==HIGH)
+    {digitalWrite(ledPin12, HIGH);}
+    
+ 
+//coche parado
+digitalWrite(ledPin12, LOW);
